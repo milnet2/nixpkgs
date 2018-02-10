@@ -1369,6 +1369,8 @@ with pkgs;
   asunder = callPackage ../applications/audio/asunder { };
 
   autossh = callPackage ../tools/networking/autossh { };
+  
+  arkanoid-space-ball = callPackage ../games/arkanoid-space-ball { };
 
   assh = callPackage ../tools/networking/assh { };
 
